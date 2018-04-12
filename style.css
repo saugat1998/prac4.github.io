@@ -1,0 +1,66 @@
+body {
+background-color: gray;
+padding-left: 250px;
+}
+
+.museumcard{
+   /* Adding Shadows to the cards*/
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   height: 800px;
+   width: 600px;
+   padding: 10px;
+
+   background-color: lightblue;
+
+   float: left;
+   margin-right: 10px;
+   margin-left: 10px;
+   margin-top: 10px;
+   border-radius: 10px;
+
+}
+.museumcard:hover{
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.9)
+}
+@media (max-width: 1000px) {
+  .museumcard {
+    flex-direction: column;
+    width:600px
+  }
+
+}
+
+.Contactus{
+border-radius: 4px;
+}
+.container{
+padding-left: 5px;
+padding-right: 8px;
+}
+.churchcard{
+   /* Adding Shadows to the cards*/
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   height: 800px;
+   width: 600px;
+   padding: 10px;
+
+   background-color: lightblue;
+
+   float: left;
+   margin-right: 10px;
+   margin-left: 10px;
+   margin-top: 10px;
+   border-radius: 10px;
+
+ }
+ @media (max-width: 1000px) {
+   .museumcard {
+     flex-direction: column;
+     width:600px
+   }
+
+ }
+
+   .churchcard:hover{
+     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.9)
+   }
